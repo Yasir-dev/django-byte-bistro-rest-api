@@ -1,0 +1,47 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files #
+*.bak
+
+# If using celery - remove the line below if you're not #
+celerybeat-schedule
+
+# PyCharm #
+.idea
+
+# Mac OS #
+.DS_Store
+
+# Django REST Framework #
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+__pycache__
+*.so
+*.dylib
+*.db
+*.sqlite3
+*.pem
+
+# Environments #
+.env
+.venv
+env/
+venv/
+ENV/
+
+# mkdocs documentation #
+/site
+
+# pytest cache #
+.pytest_cache/
+
+# Jupyter Notebook #
+.ipynb_checkpoints
